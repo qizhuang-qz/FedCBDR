@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2   python main.py --group=c10t3ep2u20    --exp_name=C_b0.5    --dataset cifar10   --method=C     --tasks=3     --num_users 20        --beta=0.5     --wandb=0   --com_round=1   --local_ep=2     --frac=0.2      --local_bs=64
